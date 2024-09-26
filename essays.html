@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essays</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="essays-page">
+    <div class="wrapper">
+        <header>
+            <h1>Essays</h1>
+        </header>
+
+        <!-- Burger Button -->
+        <div class="sidebar-toggle" onclick="navigateTo('index.html')">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <main>
+            <h2>Essays Overview</h2>
+            <h4>Everything you shouldn't talk about on a first date</h4>
+
+            <!-- Essay List -->
+            <ul class="essay-list">
+                <li><a href="essay1.html">Title of Essay 1</a> - A short description or excerpt of the essay.</li>
+                <li><a href="essay2.html">Title of Essay 2</a> - A short description or excerpt of the essay.</li>
+                <li><a href="essay3.html">Title of Essay 3</a> - A short description or excerpt of the essay.</li>
+            </ul>
+        </main>
+    </div>
+
+    <footer>
+        <p>This is the footer content.</p>
+    </footer>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page; // Navigate to the specified page
+        }
+    </script>
+</body>
+</html>

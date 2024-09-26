@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katze</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+    <div class="wrapper">
+        <header>
+            <h1>Katze</h1>
+        </header>
+
+        <!-- Burger Button -->
+        <div class="sidebar-toggle" onclick="navigateTo('essays.html')">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <main>
+            <h2>Welcome.</h2>
+            <p>Any action outlined, any person mentioned, and any substance taken is purely fictional and bears no resemblance to reality whatsoever.</p>
+        </main>
+    </div>
+
+    <footer>
+        <p>?</p>
+    </footer>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page; // Navigate to the specified page
+        }
+    </script>
+</body>
+</html>
